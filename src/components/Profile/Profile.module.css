@@ -3,7 +3,7 @@
   border: 1px solid grey;
   width: 300px;
   padding-top: 10px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .description {
   display: flex;
@@ -37,6 +37,15 @@
   justify-content: center;
   background-color: bisque;
 }
+.stat {
+  padding: 12px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .list {
   display: flex;
   align-items: center;
@@ -44,14 +53,12 @@
   flex-direction: column;
 
   width: 100px;
-  padding: 10px;
   border: 1px solid rgb(177, 160, 138);
 }
 .label {
   margin-bottom: 10px;
-  font-weight: 500;
 }
 .quantity {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-weight: 600;
 }
